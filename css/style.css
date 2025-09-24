@@ -125,6 +125,66 @@ img{
     opacity: 1;
     visibility: visible;
 }
+.popup {
+    display: none;
+    position: fixed;
+    top: -160px;
+    left: -600px;
+    width: 150%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 1000;
+}
+
+.popup-content {
+    background-color: #303030FF;
+    margin: 10% auto;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 1;
+}
+
+.close:hover {
+    color: black;
+}
+
+.popup-content h3 {
+    margin-top: 0;
+    color: white;
+}
+
+.popup-content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.popup-content li {
+    margin: 10px 0;
+}
+
+.popup-content a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 0;
+    display: block;
+
+}
+
+.popup-content a:hover {
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+}
 .main1_container{
     display: flex;
     justify-content: center;

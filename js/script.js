@@ -38,3 +38,24 @@ function toggleMenu() {
 
 hamburger.addEventListener('click', toggleMenu);
 overlay.addEventListener('click', toggleMenu);
+
+
+const menuButton = document.getElementById('menu_news_button')
+const popupMenu = document.getElementById('popupMenu');
+const closeButton = document.querySelector('.close');
+
+function openMenu() {
+    popupMenu.style.display = 'block';
+}
+function closeMenu(){
+    popupMenu.style.display = 'none';
+}
+
+menuButton.addEventListener('click', openMenu);
+closeButton.addEventListener('click', closeMenu);
+
+window.addEventListener('click', function(event){
+    if(event.target === popupMenu){
+        closeMenu();
+    }
+})
