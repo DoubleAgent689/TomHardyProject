@@ -1,0 +1,212 @@
+*{
+    font-family: "Bookman Old Style", Helvetica, sans-serif;
+    font-size: 28px;
+    text-decoration: none;
+    color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+img{
+    border-radius: 15px;
+}
+.header{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background: linear-gradient(45deg, #303030, #242529, #2a3333);
+}
+.logo_text{
+    text-align: center;
+    font-size: 48px;
+    color: #ffffff;
+}
+.menu{
+    display: flex;
+    gap: 70px;
+    position: relative;
+}
+.main1_container_element h1{
+    text-align: center;
+    font-size: 48px;
+}
+.menu a:hover{
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+}
+.header_container_reg{
+    display: block;
+    gap: 50px;
+}
+.header_container_login:hover{
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+}
+.header_container_register:hover{
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+}
+.main1 {
+    width: 100%;
+    height: auto;
+    background-color: #303030FF;
+}
+
+.hamburger_menu_button {
+    display: flex;
+    justify-content: space-between;
+    width: 40px;
+    height: 30px;
+    cursor: pointer;
+
+}
+.hamburger_menu_button img{
+    border-radius: 0;
+    padding-left: 150px;
+}
+.menu_ham {
+    position: fixed;
+    top: 0;
+    right: -300px;
+    width: 250px;
+    height: 100vh;
+    background-color: #303030FF;
+    transition: right 0.3s ease;
+    z-index: 1000;
+    padding: 80px 20px 20px;
+}
+
+.menu_ham.active {
+    right: 0;
+}
+
+.menu_ham ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu_ham li {
+    margin-bottom: 15px;
+}
+
+.menu_ham a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+.menu_ham a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+    border-radius: 0;
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    z-index: 999;
+}
+
+.overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+.main1_container{
+    display: flex;
+    justify-content: center;
+    border-radius: 64px;
+    background-color: #131315;
+    background-image: linear-gradient(rgba(255, 255, 255, .03) 5px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, .03) 5px, transparent 1px);
+    background-size: 128px 128px;
+    flex-wrap: wrap;
+    height: auto;
+}
+.main1_container_element{
+    padding-right: 40px;
+    padding-left: 40px;
+}
+.main1_container_element_text{
+    display: flex;
+    justify-content: center;
+}
+.main1_container_element_text h2:hover{
+    border-bottom: 3px solid white;
+}
+.main2{
+    padding-top: 20px;
+    width: 100%;
+    height: auto;
+    background: linear-gradient(45deg, #303030, #242529, #2a3333);
+    text-align: center;
+}
+.main2 button{
+    background-color: #303030;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "IMPACT", Helvetica, sans-serif;
+}
+.main2 h1{
+    font-size: 48px;
+}
+.main2_container{
+    width: 100%;
+    display: none;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    height: auto;
+    visibility: hidden;
+}
+
+.main2_container_element{
+
+}
+
+.main2_container_element img{
+    width: 250px;
+    height: 350px;
+    transition: transform 0.5s ease;
+    transform-style: preserve-3d;
+}
+.main2_container_element img:hover{
+    transform: rotateY(20deg) rotateX(10deg);
+}
+.footer{
+    width: 100%;
+    height: auto;
+    background: linear-gradient(45deg, #303030, #242529, #2a3333);
+    padding-bottom: 30px;
+}
+.footer_container{
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer_container_element a{
+    display: flex;
+    font-family: 'Times New Roman', Helvetica, sans-serif;
+}
+.footer_container_element a:hover{
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+}
