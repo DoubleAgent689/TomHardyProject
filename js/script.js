@@ -56,3 +56,11 @@ window.addEventListener('click', function(event){
         closeMenu();
     }
 })
+
+window.addEventListener('load', function() {
+    setTimeout(function() {
+        const preloader = document.getElementById('preloader');
+        preloader.style.opacity = '0';
+        setTimeout(() => preloader.remove(), 500);
+    }, 1000);
+});
