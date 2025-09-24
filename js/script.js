@@ -16,7 +16,9 @@ document.getElementById('showFilmsButton').addEventListener('click', function(){
 
 const hamburger = document.getElementById('menu_button_ham')
 const menu = document.getElementById('menu_ham')
-
+const menuButton = document.getElementById('menu_news_button')
+const popupMenu = document.getElementById('popupMenu');
+const closeButton = document.querySelector('.close');
 const overlay = document.createElement('div');
 overlay.className = 'overlay';
 document.body.appendChild(overlay);
@@ -38,11 +40,6 @@ function toggleMenu() {
 
 hamburger.addEventListener('click', toggleMenu);
 overlay.addEventListener('click', toggleMenu);
-
-
-const menuButton = document.getElementById('menu_news_button')
-const popupMenu = document.getElementById('popupMenu');
-const closeButton = document.querySelector('.close');
 
 function openMenu() {
     popupMenu.style.display = 'block';
