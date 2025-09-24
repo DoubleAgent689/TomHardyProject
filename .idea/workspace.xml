@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c93fb5ff-9940-453f-b991-190989f77808" name="Changes" comment="Добавил popup меню к элементу меню News">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +75,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1758728404084</updated>
-      <workItem from="1758728405091" duration="3252000" />
+      <workItem from="1758728405091" duration="3893000" />
     </task>
     <task id="LOCAL-00001" summary="Обновил слегка">
       <option name="closed" value="true" />
@@ -125,7 +125,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758731424836</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Добавил popup меню к элементу меню News">
+      <option name="closed" value="true" />
+      <created>1758731866968</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1758731866968</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
