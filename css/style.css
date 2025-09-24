@@ -67,12 +67,11 @@ img{
 }
 .hamburger_menu_button img{
     border-radius: 0;
-    padding-left: 150px;
 }
 .menu_ham {
     position: fixed;
     top: 0;
-    right: -300px;
+    right: -250px;
     width: 250px;
     height: 100vh;
     background-color: #303030FF;
@@ -92,14 +91,13 @@ img{
 }
 
 .menu_ham li {
-    margin-bottom: 15px;
+    padding-bottom: 15px;
 }
 
 .menu_ham a {
     color: white;
     text-decoration: none;
     display: block;
-    padding: 10px;
     border-radius: 5px;
 
 }
